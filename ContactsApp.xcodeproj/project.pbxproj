@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		651B312F2792586C0017FDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B312E2792586C0017FDC7 /* AppDelegate.swift */; };
-		651B31312792586C0017FDC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B31302792586C0017FDC7 /* SceneDelegate.swift */; };
-		651B31332792586C0017FDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B31322792586C0017FDC7 /* ViewController.swift */; };
-		651B31362792586C0017FDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651B31342792586C0017FDC7 /* Main.storyboard */; };
 		651B31382792586E0017FDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B31372792586E0017FDC7 /* Assets.xcassets */; };
 		651B313B2792586E0017FDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651B31392792586E0017FDC7 /* LaunchScreen.storyboard */; };
 		651B31462792586E0017FDC7 /* ContactsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B31452792586E0017FDC7 /* ContactsAppTests.swift */; };
 		651B31502792586E0017FDC7 /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B314F2792586E0017FDC7 /* ContactsAppUITests.swift */; };
 		651B31522792586E0017FDC7 /* ContactsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B31512792586E0017FDC7 /* ContactsAppUITestsLaunchTests.swift */; };
+		6534C1412796550C004C585C /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6534C1402796550C004C585C /* Contacts.storyboard */; };
+		6534C1432796564C004C585C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534C1422796564C004C585C /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 /* Begin PBXFileReference section */
 		651B312B2792586C0017FDC7 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651B312E2792586C0017FDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		651B31302792586C0017FDC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		651B31322792586C0017FDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		651B31352792586C0017FDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		651B31372792586E0017FDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651B313A2792586E0017FDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651B313C2792586E0017FDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		651B314B2792586E0017FDC7 /* ContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651B314F2792586E0017FDC7 /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
 		651B31512792586E0017FDC7 /* ContactsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6534C1402796550C004C585C /* Contacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		6534C1422796564C004C585C /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				651B312E2792586C0017FDC7 /* AppDelegate.swift */,
-				651B31302792586C0017FDC7 /* SceneDelegate.swift */,
-				651B31322792586C0017FDC7 /* ViewController.swift */,
-				651B31342792586C0017FDC7 /* Main.storyboard */,
+				651B316127925B440017FDC7 /* Networking */,
+				651B315F27925B260017FDC7 /* Contacts */,
+				651B316027925B330017FDC7 /* ContactsDetail */,
+				651B315E27925B0A0017FDC7 /* Models */,
+				651B316227925B7E0017FDC7 /* Commons */,
 				651B31372792586E0017FDC7 /* Assets.xcassets */,
-				651B31392792586E0017FDC7 /* LaunchScreen.storyboard */,
-				651B313C2792586E0017FDC7 /* Info.plist */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
@@ -125,6 +123,61 @@
 				651B31512792586E0017FDC7 /* ContactsAppUITestsLaunchTests.swift */,
 			);
 			path = ContactsAppUITests;
+			sourceTree = "<group>";
+		};
+		651B315E27925B0A0017FDC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		651B315F27925B260017FDC7 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6534C13F27965458004C585C /* View */,
+				6534C13E2796542D004C585C /* ModelView */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		651B316027925B330017FDC7 /* ContactsDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactsDetail;
+			sourceTree = "<group>";
+		};
+		651B316127925B440017FDC7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		651B316227925B7E0017FDC7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				651B31392792586E0017FDC7 /* LaunchScreen.storyboard */,
+				651B313C2792586E0017FDC7 /* Info.plist */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		6534C13E2796542D004C585C /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		6534C13F27965458004C585C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6534C1422796564C004C585C /* ContactsViewController.swift */,
+				6534C1402796550C004C585C /* Contacts.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6534C1412796550C004C585C /* Contacts.storyboard in Resources */,
 				651B313B2792586E0017FDC7 /* LaunchScreen.storyboard in Resources */,
 				651B31382792586E0017FDC7 /* Assets.xcassets in Resources */,
-				651B31362792586C0017FDC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651B31332792586C0017FDC7 /* ViewController.swift in Sources */,
 				651B312F2792586C0017FDC7 /* AppDelegate.swift in Sources */,
-				651B31312792586C0017FDC7 /* SceneDelegate.swift in Sources */,
+				6534C1432796564C004C585C /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		651B31342792586C0017FDC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				651B31352792586C0017FDC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		651B31392792586E0017FDC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +488,11 @@
 				INFOPLIST_FILE = ContactsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Contacts;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,9 +518,11 @@
 				INFOPLIST_FILE = ContactsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Contacts;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +532,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
